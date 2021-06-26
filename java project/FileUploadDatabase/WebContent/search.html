@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Search Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+       <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+        <style>
+	.container form{
+	padding-left: 350px;
+}
+
+</style>
+</head>
+
+<body>
+<section class="search-bg">
+
+<section class="loginn">
+          <nav>
+                <div class="row">
+                    <a href="index.html"> <img src="resources/img/logtitt.png" alt="e-sahay logo" class="logo"></a>
+                    <ul class="main-nav">
+                    <li><a class="btn btn-full" href="Logout.jsp">Logout</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+            
+        </section>
+<h2 style="color:white"> Enter your email</h2>
+<div class="container" >
+<form class="form-inline" method="post" action="search.jsp">
+<input type="email" name="email" class="form-control" placeholder="Email">
+<button type="submit" name="save" class="btn btn-primary">Search</button>
+</form>
+</div>
+</section>
+</body>
+</html>
